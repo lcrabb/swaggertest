@@ -7,7 +7,7 @@ Testing Swagger Importer to AEM
 ## Paths
 
 <a name="addpet"></a>
-### Add a new pet to the store
+### Add a new pet to the store and make it your own
 ```
 POST /pets
 ```
@@ -24,7 +24,7 @@ POST /pets
 
 |HTTP Code|Description|Schema|
 |---|---|---|
-|**405**|Invalid input|No Content|
+|**401**|Invalid input|No Content|
 
 
 #### Consumes
@@ -665,7 +665,7 @@ DELETE /users/{username}
 
 
 #### Description
-This can only be done by the logged in user.
+This is my descriptions to let users know what this is
 
 
 #### Parameters
